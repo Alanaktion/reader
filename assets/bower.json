@@ -1,0 +1,13 @@
+{
+  "name": "reader",
+  "version": "0.0.1",
+  "authors": [
+    "Alan Hardman <alan@phpizza.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "bootstrap": "v4-dev",
+    "tether": "1.1.0"
+  }
+}
