@@ -1,0 +1,10 @@
+// Bootstrap variable overrides
+$font-family-sans-serif:    'Lato', Helvetica, Arial, sans-serif;
+$input-box-shadow-focus:    transparent;
+$enable-flex:               true;
+$enable-shadows:            true;
+$enable-gradients:          true;
+
+// Bootstrap
+@import "../bower_components/bootstrap/scss/bootstrap";
+@import "https://fonts.googleapis.com/css?family=Lato:400,700";

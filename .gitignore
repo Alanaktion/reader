@@ -1,5 +1,4 @@
 assets/bower_components/
-assets/css/
 assets/node_modules/
 assets/js/*.js
 tmp/

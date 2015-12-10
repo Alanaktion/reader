@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<include href="_head.html" />
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-4 col-sm-offset-4">
+				<br>
+				<div class="card card-block">
+					<h4 class="card-title">Reader</h4>
+					<check if="{{ @@error }}">
+						<p class="alert alert-danger">{{ @@error }}</p>
+					</check>
+					<form action="{{ @BASE }}/login" method="post">
+						<fieldset class="form-group">
+							<label for="username">Username</label>
+							<input type="text" class="form-control" name="username" id="username">
+						</fieldset>
+						<fieldset class="form-group">
+							<label for="password">Password</label>
+							<input type="password" class="form-control" name="password" id="password">
+						</fieldset>
+						<div class="text-xs-right">
+							<button type="submit" class="btn btn-primary">Log In</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+<include href="_foot.html" />
+</body>
+</html>
